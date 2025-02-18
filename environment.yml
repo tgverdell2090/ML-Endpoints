@@ -1,0 +1,11 @@
+name: ml_endpoints
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - conda-forge
+dependencies:
+  - python=3.12
+  - fastai
+  - python-fasthtml
+prefix: /opt/anaconda3/envs/ml_endpoints
